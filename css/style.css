@@ -1,0 +1,51 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ .icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+      font-size: inherit;
+  }
+
+        
+        .nav {
+          height: auto;
+          width: 220px;
+          position: absolute;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #9c8f8f;
+          overflow-x: hidden;
+          padding-top: 20px;
+          margin-top: 0px;
+        }
+        
+        .nav a {
+          padding: 6px 8px 6px 16px;
+          text-decoration: none;
+          font-size: 20px;
+          color: #910909;
+          display: block;
+        }
+        
+        .nav a:hover {
+          color: rgb(157, 148, 211);
+        }
+        
+        .main {
+          margin-left: 220px; /* Same as the width of the sidenav */
+          padding: 0px 10px;
+        }
+        
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+      
